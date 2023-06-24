@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Verificador de Reputação IP",
+  "version": "1.0",
+  "description": "Extensão para verificar a reputação de um IP e tirar um print da página.",
+  "permissions": ["tabs", "http://*/*", "https://*/*"],
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Verificador de Reputação IP"
+  },
+  "icons": {
+    "16": "icon-16.png"
+  }
+}
